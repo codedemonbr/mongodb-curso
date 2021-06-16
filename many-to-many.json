@@ -1,0 +1,73 @@
+// Collection Fornecedores
+{
+    "_id": "f04",
+    "cnpj": "165486984",
+    "nome": "Fornecedor Legal",
+    "cep": "1098465",
+    "produtos": [
+        {
+            "_id": "p16",
+            "preco": 46.50
+        },
+        {
+            "_id": "p21",
+            "preco": 12
+        }
+    ]
+}
+ 
+{
+    "_id": "f07",
+    "cnpj": "98498151",
+    "nome": "Fornecedor Maneiro",
+    "cep": "198498",
+    "produtos": [
+        {
+            "_id": "p21",
+            "preco": 16
+        },
+        {
+            "_id": "p47",
+            "preco": 127.46
+        }
+    ]
+}
+
+
+// Collection Produtos
+{
+    "_id": "p16",
+    "descricao": "Panela",
+    "fornecedores": [
+        {
+            "_id": "f04",
+            "preco": 46.50
+        }
+    ]
+}
+ 
+{
+    "_id": "p21",
+    "descricao": "Prato",
+    "fornecedores": [
+        {
+            "_id": "f04",
+            "preco": 12
+        },
+        {
+            "_id": "f07",
+            "preco": 16
+        }
+    ]
+} 
+ 
+{
+    "_id": "p47",
+    "descricao": "Faqueiro",
+    "fornecedores": [
+        {
+            "_id": "f07",
+            "preco": 127.46
+        }
+    ]
+}
